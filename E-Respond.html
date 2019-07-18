@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Respond</title>
+<link rel="stylesheet" href="link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+#container ul{
+list-style:none;
+}
+#container ul li{
+	
+	font-family:Calibri Light (Headings); 
+}
+.wrap{
+	max-width:350px;
+	border-radius:20px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	margin-top:100px;
+}
+h2{
+	text-align:center;
+}
+input[type=text],input[type=password]{
+	width:100%;
+	box-sizing:border-box;
+	padding:12px 5px;
+	background:#FFF;
+	outline:none;
+	border:none;
+	border-bottom:1px dotted #fff;
+	color:#000;
+	border-radius:5px;
+	margin:5px;
+	font-weight:bold;	 
+}
+input[type=Submit]{
+	width:100%;
+	box-sizing:border-box;
+	padding:10px 0;
+	margin-top:30px;
+	ouline:none;
+	border:none;
+	background#CCC;
+	opacity:0.7;
+	border-radius:20px;
+	font-size:20px;
+	color:#FFF;
+}
+input[type=submit]:hover{
+	background:#03C;
+	opacity:0.7;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+    font-family:Calibri Light (Headings);
+    width: auto; 
+    height: 230px;
+	gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(lungs (1).gif);
+}
+
+</style>
+
+</head>
+<body background="lungs (1).gif">
+<form action="insert.php" method="POST"></form>
+ 
+<div class ="wrap">
+	<h2>Sign up</h2>
+    <form action="insert.php" method="post">
+    	<input type ="text" placeholder ="Login_Id.." required>
+        <input type ="text" placeholder ="First_Name.." required>
+        <input type ="text" placeholder ="E_Mail.." required>
+        <input type ="text" placeholder ="UserName.." required>
+        <input type ="Password" placeholder ="Password.." required>
+        <input type ="Submit" value="Submit">
+        
+        <p class="message">Already have an account? <a href="Login.html"><strong>Login</strong></a></p>
+    </form>
+</body> 
+</html>
